@@ -1,52 +1,60 @@
-.sticky {
-    position: fixed;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    z-index: 100px;
-    border-top: 0px;
-}
 
-.stickyfoot {
-    position: fixed;
-    width: 100%;
-	left: 0px;
-    z-index: 100px;
-    border-bottom: 0px;
+.sticky {
+  
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  right: 0px;
+  border: 0px;
+  
 }
-.wrapper {
-	height: 100%;
+.sticky1 {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left:0px;
 	
 }
 
-
 .head {
-	background: red;
-	width: 1000px;
+	
+	background: #55FFFF;
+	width:100%;
 	text-align: center;
-	border: 2px solid black;
-	height: 40px;
+	/*border-top: 2px solid black;*/
+	height: 80px;
+	font: 36px bold;
+	font-family: Sans-serif;
+	padding: 20px;
+	
 	
 	
 }
 
 .footer {
-	position: relative;
-	height: 40px;
-	background: blue;
-	width: 1000px;
+	
+	height: 50px;
+	background-color: purple;
+	color:white;
+	margin-top: 20px;
 	text-align: center;
 	border: 2px solid black;
-}
-p {
-text-align: justify;
+	padding: 20px;
+	font-family: Sans-serif;
+} 
+
+.nav {
+	margin-top:30px;
+	border-top: 2px solid green;
+	padding: 40px;
+	height:auto;
+	height:100px;
+	
 }
 .body {
-	width: 700px;
-	text-align: center;
-}
-body {
- font-family: Times New Roman;
- text-align: center;
- display: block;
+	
+	text-align: justify;
+    margin-top: 500px;
+	padding:50px;
+	
 }
