@@ -16,7 +16,7 @@
 	
 }
 
-.head {
+#head {
 	
 	background: #55FFFF;
 	width:100%;
@@ -31,7 +31,7 @@
 	
 }
 
-.footer {
+#footer {
 	
 	height: 50px;
 	background-color: purple;
@@ -43,7 +43,7 @@
 	font-family: Sans-serif;
 } 
 
-.nav {
+#nav {
 	margin-top:30px;
 	border-top: 2px solid green;
 	padding: 40px;
@@ -51,7 +51,7 @@
 	height:100px;
 	
 }
-.body {
+#body {
 	
 	text-align: justify;
     margin-top: 500px;
