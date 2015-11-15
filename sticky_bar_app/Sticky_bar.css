@@ -18,8 +18,7 @@
 
 #head {
 	
-	background: #55FFFF;
-	width:100%;
+	background: #CCC5EE;
 	text-align: center;
 	/*border-top: 2px solid black;*/
 	height: 80px;
@@ -34,7 +33,7 @@
 #footer {
 	
 	height: 50px;
-	background-color: purple;
+	background-color: rgba(1,0,1,0.5);
 	color:white;
 	margin-top: 20px;
 	text-align: center;

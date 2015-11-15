@@ -3,16 +3,24 @@
 	/* making the header bar sticky when the user starts scrolling down the page*/
 	var stickyHead = function() {
 		
-		var stickyHeadTop = $("#head").offset().top;		// offset() method gets the co-ordinates of the current element relative to the document and "top" is the property of offset() which takes the top co-ordinates
+		//var stickyHeadTop = $("#head").offset().top;		// offset() method gets the co-ordinates of the current element relative to the document and "top" is the property of offset() which takes the top co-ordinates
+		var stickhead = $('#head').height();				// getting the height of the head element
+		console.log(stickhead);
 		var scrollTop = $(window).scrollTop();  			// scrollTop() gets the top co-ordinates of the scroll bar
-		console.log(stickyHeadTop);
+		//console.log(stickyHeadTop);
 		console.log(scrollTop);
 		
-		if(scrollTop >= stickyHeadTop) {         			// if the scroll bar position is greater than header's co-ordinates meaning that the user has scrolled the page
+		if(scrollTop >= stickhead) {
+			$("#head").addClass("sticky1");
+		} else {
+			$("#head").removeClass("sticky1");   			// else remove the class and hence the current element gets its default CSS properties defined
+		}
+		
+		/*if(scrollTop >= stickyHeadTop) {         			// if the scroll bar position is greater than header's co-ordinates meaning that the user has scrolled the page
 			$("#head").addClass("sticky1");      			// make the header sticky by adding the CSS class "sticky1" which is defined in CSS file
 		} else {
 			$("#head").removeClass("sticky1");   			// else remove the class and hence the current element gets its default CSS properties defined
-			}
+			}*/
 			
 	};
 	
